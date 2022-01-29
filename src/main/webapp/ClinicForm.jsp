@@ -65,7 +65,8 @@
 									placeholder="Etoiles" value="${hm.nbr_etoiles}" />
 							</div>
 							<div class="form-group">
-								<a class="btn btn-primary p-6" href="AddClinic?id=${hm.getId_clinic()}">Valider</a>
+								<a class="btn btn-primary p-6"
+									href="AddClinic?id=${hm.getId_clinic()}">Valider</a>
 							</div>
 						</form>
 					</div>

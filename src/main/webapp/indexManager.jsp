@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Espace Manager</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<%@ include file="./includes/head.html"%>
+<title>Espace Manager</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<%@ include file="./includes/head.html"%>
 </head>
 <body>
 	<%@ include file="./includes/navbar.jsp"%>
@@ -21,7 +21,7 @@
 					data-scrollax=" properties: { translateY: '70%' }">
 					<p class="breadcrumbs"
 						data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-						<span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span>
+						<span class="mr-2"><a href="index.jsp">Home</a></span> <span>Blog</span>
 					</p>
 					<h1 class="mb-3 bread"
 						data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Espace
@@ -40,7 +40,8 @@
 						<br>
 						<form action="ClinicManager">
 							<button type="submit" value="Superviser les clinics"
-								class="btn btn-primary py-3 px-5">Superviser les clinics</button>
+								class="btn btn-primary py-3 px-5">Superviser les
+								clinics</button>
 						</form>
 						<br>
 						<form action="Addclinic">
